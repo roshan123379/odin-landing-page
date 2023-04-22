@@ -1,0 +1,117 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    color: white;
+}
+.logo{
+    margin-left: 10cm;
+    font-size: 28px;
+    
+}
+.header-link{
+    display:flex;
+    gap: 0.5cm;
+    margin-right: 10cm;
+    align-items: center;
+    font-size: 18px;
+    list-style-type: none;
+}
+.container-one{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+    align-items: center;
+    color: white;
+    gap: 3cm;
+}    
+.heading-one{
+    font-size: 48px;   
+}
+.image{
+    margin-right: 10cm;
+    
+}
+img{
+    width: 500px;
+    height: 300px;
+}
+.text-one{
+    width: 600px;
+    height: 300px;
+    align-content: baseline;
+    margin-left: 10cm;
+}
+.button{
+    width: 3cm;
+    height: 1cm;
+    background-color: #3882F6;
+    color: aliceblue;
+    font-size: 16px;
+    border: 2px solid #3882F6 ;
+    border-radius: 8px;
+}
+.container-two{
+    text-align: center;
+}
+.container-item{
+    gap: 1cm;
+    justify-content: center;
+    display: flex;   
+}
+.item{
+    gap: 1cm;
+    border: 3px solid blue;
+    width: 170px;
+    height: 170px;
+    margin-top: 8px;
+    border-radius: 15px;
+}
+.text-two{
+    gap: 1.2cm;
+    justify-content: center;
+    display: flex;
+}
+.text-two p{    
+    width: 170px;  
+    font-size: 18px;  
+    text-align: center;
+    text-align: justify;
+}
+.text-three{
+    height: 270px;
+    padding: 1.5cm 14cm;
+    background-color:#E5E7EB ;
+}
+.text-three p{
+    font-size: 36px;
+    text-decoration: #1F2937;
+    font-style: italic;
+    text-align: justify;
+}
+.text-three h2{
+    text-align: end;
+}
+.footer{
+    height: 120px;
+    padding: 2cm 10cm;
+}
+.footer-box{
+    background-color: blue;
+    display: flex;
+    border: 2px solid blue;
+    border-radius: 8px;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2cm;
+}
+.button-two  button{
+    background-color: blue;
+    border: solid white;
+    border-radius: 4px;
+    color: white;
+    width: 3cm;
+    height: 1cm;
+}
